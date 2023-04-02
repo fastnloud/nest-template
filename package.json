@@ -1,0 +1,39 @@
+{
+  "name": "@fastnloud/nest-template",
+  "version": "0.0.1",
+  "description": "Template module for Nest that uses Handlebars to render templates.",
+  "homepage": "https://github.com/fastnloud/nest-template#readme",
+  "author": "jaap",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint:ts": "prettier --check \"src/**/*.ts\"",
+    "lint:ts:fix": "prettier --write \"src/**/*.ts\"",
+    "prebuild": "rimraf dist",
+    "preversion": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastnloud/nest-template.git"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.3.12",
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "prettier": "^2.8.7",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "rimraf": "^4.4.1",
+    "typescript": "^5.0.2"
+  },
+  "keywords": [
+    "nest",
+    "template",
+    "handlebars"
+  ],
+  "files": [
+    "dist/**/*"
+  ]
+}
