@@ -36,6 +36,6 @@
     "handlebars"
   ],
   "files": [
-    "dist/**/*"
+    "dist/**/*.{js,ts}"
   ]
 }
