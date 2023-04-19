@@ -1,6 +1,6 @@
 {
   "name": "@fastnloud/nest-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Template module for Nest that uses Handlebars to render templates.",
   "homepage": "https://github.com/fastnloud/nest-template#readme",
   "author": "jaap",
