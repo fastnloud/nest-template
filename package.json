@@ -18,8 +18,10 @@
     "url": "git+https://github.com/fastnloud/nest-template.git"
   },
   "dependencies": {
-    "@nestjs/common": "^9.3.12",
     "handlebars": "^4.7.7"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^9.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
