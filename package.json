@@ -21,14 +21,15 @@
     "handlebars": "^4.7.7"
   },
   "peerDependencies": {
-    "@nestjs/common": "^9.0.0"
+    "@nestjs/common": "^9.0.0 || ^10.0.0"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
-    "prettier": "^2.8.7",
+    "@types/node": "^18.0.0",
+    "npm-check-updates": "^16.10.13",
+    "prettier": "^2.8.8",
     "prettier-plugin-organize-imports": "^3.2.2",
-    "rimraf": "^4.4.1",
-    "typescript": "^5.0.2"
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
   },
   "keywords": [
     "nest",
